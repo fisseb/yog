@@ -1,0 +1,90 @@
+.finish-blue-bg {
+  width: 100%;
+  background: #1e4072;
+}
+
+.finish-yellow-bg {
+  background: #ffff7f;
+  height: 4vh;
+  width: 100%;
+}
+.finish-arr-back {
+  margin-top: 1rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.finish-arrow {
+  color: #fff;
+  font-size: 2rem;
+}
+.finish-page {
+  height: 89vh;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  align-items: center;
+  grid-template-rows: 4fr 3fr 2fr;
+}
+
+.finish-location p i {
+  color: #ffff7f;
+  font-size: 2rem;
+}
+.finish-location p {
+  font-size: 2rem;
+  color: #fff;
+}
+.finish-location h1 {
+  color: #ffff7f;
+  font-size: 4rem;
+}
+.marker-container {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background: #ffff7f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+.geo-finish {
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 4rem 17rem;
+}
+.user-location {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  gap: 1rem;
+  /* background: grey; */
+  grid-template-columns: 4rem 12.5rem 4rem;
+}
+
+.selected-location span {
+  color: white;
+  font-size: 1.5rem;
+  /* background: blue; */
+}
+.x-container {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  /* background:rgba(255, 255, 255, 0.5); */
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.x-icon {
+  color: #1e4072;
+  font-size: 1.5rem;
+}
